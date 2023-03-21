@@ -3,11 +3,8 @@ function getRandomHexColor() {
 }
 
 const DELAY = 1000;
-
-
 const stopBtn = document.querySelector("[data-stop]");
 const startBtn =  document.querySelector("[data-start]");
-
 let changeColor = 0;
 
 startBtn.addEventListener('click', startColorChange);
